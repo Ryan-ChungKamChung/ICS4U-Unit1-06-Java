@@ -71,7 +71,7 @@ final class Statistics {
             median = ((double) intArray[arrayLength / 2]
                     + (double) intArray[arrayLength / 2 - 1]) / 2;
         } else {
-            median = (double) intArray[arrayLength] / 2;
+            median = (double) intArray[arrayLength / 2];
         }
 
         return median;
