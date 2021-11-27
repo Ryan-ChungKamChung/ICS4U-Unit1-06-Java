@@ -40,7 +40,7 @@ final class Statistics {
     /**
     * The mean() function.
     *
-    * @param arrayOfIntegers the collection of integers
+    * @param intArray the collection of integers
     * @return the mean of the integers
     */
     public static double mean(final Integer[] intArray) {
@@ -57,7 +57,7 @@ final class Statistics {
     /**
     * The median() function.
     *
-    * @param arrayOfIntegers the collection of integers
+    * @param intArray the collection of integers
     * @return the median of the integers
     */
     public static double median(final Integer[] intArray) {
@@ -80,7 +80,7 @@ final class Statistics {
     /**
     * The mode() function.
     *
-    * @param numbers the collection of integers
+    * @param intArray the collection of integers
     * @return the mode of the integers
     */
     public static Set<Integer> mode(final Integer[] intArray) {
