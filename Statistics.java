@@ -47,8 +47,8 @@ final class Statistics {
 
         double sum = 0;
 
-        for (int i = 0; i < intArray.length; i++) {
-            sum += intArray[i];
+        for (int number : intArray) {
+            sum += number;
         }
 
         return sum / intArray.length;
@@ -88,13 +88,12 @@ final class Statistics {
         final Set<Integer> modes = new HashSet<Integer>();
         int maxCount = 0;
 
-        for (int loop1 = 0; loop1 < intArray.length; loop1++) {
+        for (int number1 : intArray) {
 
             int count = 0;
 
-            for (int loop2 = 0; loop2 < intArray.length; loop2++) {
-
-                if (intArray[loop2] == intArray[loop1]) {
+            for (int number2 : intArray) {
+                if (number2 == number1) {
                     count++;
                 }
             }
@@ -102,9 +101,7 @@ final class Statistics {
             if (count > maxCount) {
                 maxCount = count;
                 modes.clear();
-                modes.add(intArray[loop1]);
-            } else if (count == maxCount) {
-                modes.add(intArray[loop1]);
+                modes.add(number1);
             }
 
         }
