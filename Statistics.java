@@ -93,6 +93,7 @@ final class Statistics {
             int count = 0;
 
             for (int number2 : intArray) {
+
                 if (number2 == number1) {
                     count++;
                 }
