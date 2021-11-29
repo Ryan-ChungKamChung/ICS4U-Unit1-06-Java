@@ -103,6 +103,8 @@ final class Statistics {
                 maxCount = count;
                 modes.clear();
                 modes.add(number1);
+            } else if (count == maxCount) {
+                modes.add(number1);
             }
 
         }
