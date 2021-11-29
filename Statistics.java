@@ -1,4 +1,3 @@
-
 /*
 * This is a program that calculates mean, median and mode
 * after reading in a text file into an array.
